@@ -11,7 +11,9 @@ weight:      # You can add weight to some posts to override the default sorting 
 
 ## Overview of my homelab!
 
-My homelab centralizes around my server. Here are my super general specs:
+My homelab centralizes around my main server. She may be a bit outdated and limited in her hardware but by golly that is my baby. And as a broke college student I spent WAY too much money on her (worth it though).
+
+Here are the current specs:
 
 **HPE ProLiant DL360 Gen9 Server**
 
@@ -24,4 +26,6 @@ My homelab centralizes around my server. Here are my super general specs:
 * Proxmox Virtual Environment
 
 
-So, obviously my hardware is pretty bare bones. My main concern is the memory as I am intending to run many virtual machines. However with RAM prices right now... yeah I will just have to make do.
+I actually got this specific server through my college, as they were giving an opportunity to purchase them for a cheaper price. Currently, my biggest limititation is memory. I will not be able to run as many virtual machines as I would like. I am looking into adding more RAM but with these current prices... I might have to sell a kidney. 
+
+I think this server is perfectly adequate for my projects now, and I am incredibly grateful that I had the opportunity to purchase it at the price I did!
