@@ -15,7 +15,7 @@ SortBy              = "default"
 
 [sidebar]
     #subtitle = ""
-    avatar   = "/img/avatar.png"
+    avatar   = "/img/avatar.jpeg"
 
 [article]
     headingAnchor = false
