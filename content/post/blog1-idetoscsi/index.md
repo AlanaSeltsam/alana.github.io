@@ -13,8 +13,9 @@ This is not tech advice, this is not a tutorial. But if you are a beginner perha
 
 If you want an overview of my hardware and current config you can refer to my previous posts:
 
-[My Homelab Server Overview](/p/overview/)
-[My Homelab Current VMs/Services](/p/current-config/)
+[My Homelab Server Overview](/alana.github.io/p/overview/)
+
+[My Homelab Current VMs/Services](/alana.github.io/p/current-config/)
 
 ## I had a problem...
 My VMs were sluggish, like way more sluggish than is even reasonable for my conservative hardware allocation. Changing settings in AD and just using the OS was painful. I experimented by allocating more RAM, more cores, etc... but it was still so **SO** slow!
@@ -59,7 +60,7 @@ And it works! I swap the main drive to SCSI and finally it boots right to Window
 
 ## My biggest headache and why I believe the test SCSI drive must stay connected
 
-Since I successfully swapped my ADDNS server from IDE to SCSI I figured it would be simple to swap my WINSERV VM over as well. So I started with the same steps, I added test drive installed drivers initialized the test drive. But when I went to swap my main drive to SCSI I got another BSOD. I swear I am going to see that error message in my nightmares...
+Since I successfully swapped my ADDNS server from IDE to SCSI I figured it would be simple to swap my WINSERV VM over as well. So I started with the same steps, I added the test drive, installed the drivers, and initialized the test drive. However, this time I removed the test SCSI drive thinking the post driver installation was completed. When I went to swap my main drive to SCSI I got another BSOD. I swear I am going to see that error message in my nightmares...
 
 So I reattached the test drive back on in an effort to try and backstep. But alas that did not fix it so I completely restarted and tried to do the process all over again. 
 
