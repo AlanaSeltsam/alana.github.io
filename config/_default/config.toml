@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://alana.github.io"
+baseurl = "https://alanaseltsam.github.io/"
 locale  = "en-us"
 title   = "Alana's Homelab"
 
